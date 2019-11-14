@@ -1,6 +1,8 @@
 class JourniesController < ApplicationController
     def index
         @journies = Journey.all
+
+        render json: @journies
     end 
 
     def new
@@ -17,4 +19,5 @@ class JourniesController < ApplicationController
 
     def destroy
     end 
+
 end
