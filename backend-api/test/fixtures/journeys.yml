@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  courier_id: 1
+  vehincle_type: MyString
+  shipping_speed: MyString
+  leg: MyString
+  address_1: MyString
+  address_2: MyString
+  city: MyString
+  post_code: MyString
+  country: MyString
+  distance: 1
+
+two:
+  courier_id: 1
+  vehincle_type: MyString
+  shipping_speed: MyString
+  leg: MyString
+  address_1: MyString
+  address_2: MyString
+  city: MyString
+  post_code: MyString
+  country: MyString
+  distance: 1
