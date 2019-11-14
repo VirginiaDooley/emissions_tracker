@@ -1,5 +1,8 @@
 class CouriersController < ApplicationController
     def index
+        @couriers = Courier.all
+
+        render json: @couriers
     end 
 
     def new
@@ -16,4 +19,8 @@ class CouriersController < ApplicationController
 
     def destroy
     end 
+
+    def courier_params
+        params.require(:courier).permit(:courier_name, :client_id)
+    end
 end

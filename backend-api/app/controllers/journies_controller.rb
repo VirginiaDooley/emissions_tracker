@@ -1,5 +1,6 @@
 class JourniesController < ApplicationController
     def index
+        @journies = Journey.all
     end 
 
     def new
