@@ -1,22 +1,3 @@
-The situation
-
-Carbon Smart, a leading sustainability consultancy, has developed a sustainability platform for its
-clients. Several fashion clients are looking to capture the environmental impact of their couriers and
-their associated journeys. It may take several journeys (legs) to get an order from the client’s
-warehouse, to distribution centres and then finally to their customers home (the last mile). This
-journey may differ for standard vs next day delivery and each courier and journey may use a
-different type of vehicle.
-
-Task 1: Create a database schema
-
-The platform requires a database schema created to capture information the journeys being
-undertaken by different couriers and a way to link multiple journeys to get a parcel from A to B.
-Create a database schema to capture:
-• Information about the client
-• Information about their couriers
-• Information about the journeys undertaken
-
-<!-- Establish relationships between objects -->
 
 class Client 
     has_many :customers
