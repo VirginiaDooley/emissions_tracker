@@ -1,0 +1,2 @@
+class JourniesController < ApplicationController
+end
