@@ -1,5 +1,7 @@
 class ClientsController < ApplicationController
     def index
+        @clients = Client.all 
+        render json: @clients
     end 
 
     def new
@@ -16,4 +18,8 @@ class ClientsController < ApplicationController
 
     def destroy
     end 
+
+    def client_params
+        params.require(:client).permit(:business_name)
+    end
 end
